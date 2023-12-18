@@ -76,7 +76,7 @@ export default function Sidebar({ open, handleDrawerClose }: { open: any, handle
             </DrawerHeader>
             <Divider />
             <List>
-                {['Inbox', 'Starred', 'Send email', 'Drafts'].map((text, index) => (
+                {['Products', 'Orders', 'Users'].map((text, index) => (
                     <ListItem key={text} disablePadding sx={{ display: 'block' }}>
                         <ListItemButton
                             sx={{
@@ -101,7 +101,7 @@ export default function Sidebar({ open, handleDrawerClose }: { open: any, handle
             </List>
             <Divider />
             <List>
-                {['All mail', 'Trash', 'Spam'].map((text, index) => (
+                {['Dark Mode', 'Profile', 'Pogout'].map((text, index) => (
                     <ListItem key={text} disablePadding sx={{ display: 'block' }}>
                         <ListItemButton
                             sx={{

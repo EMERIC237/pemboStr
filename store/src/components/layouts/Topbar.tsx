@@ -47,7 +47,7 @@ export function Topbar({ open, handleDrawerOpen }: { open: boolean, handleDrawer
           <MenuIcon />
         </IconButton>
         <Typography variant="h6" noWrap component="div">
-          Mini variant drawer
+          Pembo Store
         </Typography>
       </Toolbar>
     </AppBar>

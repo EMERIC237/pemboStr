@@ -2,6 +2,7 @@
 import { useTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import Box from '@mui/material/Box';
+import Container from '@mui/material/Container';
 import { Topbar } from '@/components/layouts/Topbar';
 import Sidebar from '@/components/layouts/Sidebar';
 import React from 'react';
@@ -18,14 +19,7 @@ export default function Home() {
   };
   return (
     <Box display="flex">
-      <CssBaseline />
-      <Sidebar open={open} handleDrawerClose={handleDrawerClose} />
-      <Box flexGrow={1}>
-        <Topbar open={open} handleDrawerOpen={handleDrawerOpen} />
-        <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
-          <h1>Home</h1>
-        </Box>
-      </Box>
+      Home page
     </Box>
   )
 }
