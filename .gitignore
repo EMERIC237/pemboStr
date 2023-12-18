@@ -136,4 +136,5 @@ dist
 
 # history files
 .history/*
+.history
 
